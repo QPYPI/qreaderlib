@@ -1,0 +1,2 @@
+# mreaderlib
+Android reader lib
