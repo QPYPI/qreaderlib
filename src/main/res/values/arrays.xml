@@ -16,7 +16,9 @@
         <item>My QPython</item>
         <!--item>System</item-->
         <item>Package Index</item>
-        <item>Community</item>   
+        <item>Community</item>
+        <item>Console(Root)</item>
+
     </string-array> 
 
    	<string-array name="select_cat_val_single">

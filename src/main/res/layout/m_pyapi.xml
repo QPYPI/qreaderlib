@@ -46,7 +46,7 @@
 				style="@style/LinkText_Mid"
 				android:singleLine="false"
 				android:text="@null" 
-				android:textColor="@color/cblack"
+				android:textColor="@color/maintextcolor"
 				android:paddingRight="10dp"
 				android:paddingLeft="10dp"
 				/>
