@@ -2,7 +2,6 @@
 
 <com.quseit.view.HeadedTextItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
-   	xmlns:greendroid="http://schemas.android.com/apk/res/com.hipipal.qpyplus"
    	style="?attr/gdThumbnailItemViewStyle"
     android:layout_width="fill_parent"
     android:orientation="vertical">

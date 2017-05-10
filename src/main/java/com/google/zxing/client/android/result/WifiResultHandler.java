@@ -58,7 +58,7 @@ public final class WifiResultHandler extends ResultHandler {
       String ssid = wifiResult.getSsid();
       String password = wifiResult.getPassword();
       String networkType = wifiResult.getNetworkEncryption();
-      WifiManager wifiManager = (WifiManager) getActivity().getSystemService(Context.WIFI_SERVICE);
+      WifiManager wifiManager = (WifiManager) getActivity().getApplicationContext().getSystemService(Context.WIFI_SERVICE);
       Toast.makeText(getActivity(), R.string.wifi_changing_network, Toast.LENGTH_LONG).show();
       WifiConfigManager.configure(wifiManager, ssid, password, networkType);
       parent.restartPreviewAfterDelay(0L);

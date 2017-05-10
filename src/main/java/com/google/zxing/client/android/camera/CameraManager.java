@@ -20,6 +20,7 @@ import android.content.Context;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.hardware.Camera;
+import android.hardware.camera2.*;
 import android.os.Handler;
 import android.util.Log;
 import android.view.SurfaceHolder;
@@ -72,9 +73,11 @@ public final class CameraManager {
    * @throws IOException Indicates the camera driver failed to open.
    */
   public synchronized void openDriver(SurfaceHolder holder) throws IOException {
+
     Camera theCamera = camera;
     if (theCamera == null) {
-      theCamera = Camera.open();
+
+      theCamera = Camera.open(Camera.CameraInfo.CAMERA_FACING_BACK);
       if (theCamera == null) {
         throw new IOException();
       }
