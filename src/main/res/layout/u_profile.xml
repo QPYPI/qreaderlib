@@ -8,10 +8,7 @@
 	android:background="@color/cwhite3"
 	android:orientation="vertical">
 	
-	<include layout="@layout/u_user_head_mini"
-		        android:id="@+id/u_user_head"
-	
-	/> 
+
 		<com.viewpagerindicator.TitlePageIndicator
         	android:id="@+id/indicator"
         	android:layout_width="fill_parent"
