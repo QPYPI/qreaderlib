@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         minSdkVersion 9
-        targetSdkVersion 17
+        targetSdkVersion 26
     }
 
     buildTypes {
@@ -19,7 +19,7 @@ android {
 
 dependencies {
     //compile project(':qsl4alib')
-    compile project(':qbaselib')
-    compile files('libs/core.jar')
-    compile files('libs/json_simple-1.1.jar')
+    api project(':qbaselib')
+    api files('libs/core.jar')
+    api files('libs/json_simple-1.1.jar')
 }
