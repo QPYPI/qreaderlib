@@ -42,7 +42,7 @@
 		<item>Components</item>
 	</string-array>
    	<string-array name="select_program">
-        <item>Get script from QRCode</item> 
+        <item>Read script from QRCode</item>
         <item>Run local script</item> 
         <item>Run local project</item> 
     </string-array>     

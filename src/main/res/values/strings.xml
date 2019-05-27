@@ -34,6 +34,11 @@
     <string name="button_show_map">Show map</string>
     <string name="button_sms">Send SMS</string>
     <string name="button_web_search">Web search</string>
+
+    <string name="button_edit">Edit</string>
+    <string name="button_run_with_py">Run the program</string>
+    <string name="button_run_as_parameter">As parameter to Run ...</string>
+
     <string name="button_wifi">Connect to Network</string>
     <string name="contents_contact">Contact info</string>
     <string name="contents_email">Email address</string>
