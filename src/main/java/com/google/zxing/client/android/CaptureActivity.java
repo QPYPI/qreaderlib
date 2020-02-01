@@ -80,9 +80,9 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
   private static final long BULK_MODE_SCAN_DELAY_MS = 1000L;
 
   private static final String PACKAGE_NAME = "com.google.zxing.client.android";
-  private static final String PRODUCT_SEARCH_URL_PREFIX = "http://www.google";
+  private static final String PRODUCT_SEARCH_URL_PREFIX = "https://www.google";
   private static final String PRODUCT_SEARCH_URL_SUFFIX = "/m/products/scan";
-  private static final String[] ZXING_URLS = { "http://zxing.appspot.com/scan", "zxing://scan/" };
+  private static final String[] ZXING_URLS = { "https://qr.qpy.io/scan", "qpyqr://scan/" };
   private static final String RETURN_CODE_PLACEHOLDER = "{CODE}";
   private static final String RETURN_URL_PARAM = "ret";
   private static final String RAW_PARAM = "raw";
